@@ -96,7 +96,7 @@
               aria-label="Default select example"
               class="ms-3 usertable  rounded"
             >
-              <option value="" selected>Select Position</option>
+              <option value="" selected>Select Job</option>
               <option value="Designer">Designer</option>
               <option value="HR">HR</option>
               <option value="Developer">Developer</option>
@@ -164,8 +164,8 @@
     <!-- placeholder table -->
     <PlaceHolderTable v-else></PlaceHolderTable>
     <div>
-       <label class="ms-3 me-2 fw-bold">Optional Setting :</label>
-            <select v-model="sort" class="usertable  rounded">
+       <label class="ms-3 me-2 fw-bold d-none d-sm-inline">Optional Setting :</label>
+            <select v-model="sort" class="usertable  rounded mb-1">
               <option value="fullname" selected>Sort By Name</option>
               <option value="age">Sort By Age</option>
             </select>
