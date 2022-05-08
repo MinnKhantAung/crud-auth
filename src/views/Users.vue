@@ -103,8 +103,8 @@
               <option value="Tester">Tester</option>
             </select>
           </td>
-          <td colspan="2" class="text-end me-3 me-sm-0 ">
-            <span class="link me-3" @click="page--" v-if="page > 1"
+          <td colspan="2" class="text-end  ">
+            <span class="link " @click="page--" v-if="page > 1"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -116,7 +116,7 @@
                 <path
                   d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"
                 /></svg></span
-            ><span v-else class="me-3"
+            ><span v-else class=""
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
